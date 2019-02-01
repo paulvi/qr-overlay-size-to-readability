@@ -1,0 +1,6 @@
+123
+Hello World!
+QR Code image QRCode2M.png created successfully.
+Create a map of hints and  pass them to the writer to create a QRCode with error correction set to level H (30%).  Instantiate a new image to use as a overlay
+Calculate the width and height diff between the overlay image and the QRCode. These values are used in order to align the overlay image in the center of the QRCode. Here we set the composite before the overlay is drawn. This allows us to set the transparency (Alpha value) and how the overlay is to be rendered on top of the QRCode. See this page for more info.
+
